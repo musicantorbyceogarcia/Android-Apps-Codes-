@@ -5,7 +5,8 @@ Codigos de Curso Android Studio
 
 **
   Codigos desenvolvidos em Aula ADNROID STUDIO 
-
+//  (onCreate )Metodos principal De Inicializacao 
+// findViewById retorna um elemento do tipo VIEW
 **
 
 
@@ -16,11 +17,11 @@ public class MainActivtiy(){
 	String[] frases = {"O Mundo fala o mundo movem","Eu tinha planos como voce ",
 	"acabou o bailão ","olha so como que esta os moleques"};
 
-  // Metodos principal De Inicializacao 
+  
 	public void onCreate(savedInstace){
 		setContentView(R.id.activity_main);
 
-      // recupero o botao / findViewById retorna um elemwnto do tipo VIEW
+      
 			btnTestar = (Button)findViewById(R.id.btnTestar);
 
 			btnTestar.setOnClickListener(new View.OnClikcListener){
